@@ -9,6 +9,10 @@ public class Main {
         // Day of week challenge
         DayOfWeek.printDayOfTheWeek(3);
         DayOfWeek.printDayOfTheWeek(39);
+
+        // Num of days in month challenge
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 2020)); // leap year
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 2018));
     }
 
     public static void intSwitch(int switchValue) {
