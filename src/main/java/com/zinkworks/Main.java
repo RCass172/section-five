@@ -5,6 +5,10 @@ public class Main {
 
         intSwitch(4);
         stringSwitch("February");
+
+        // Day of week challenge
+        DayOfWeek.printDayOfTheWeek(3);
+        DayOfWeek.printDayOfTheWeek(39);
     }
 
     public static void intSwitch(int switchValue) {
