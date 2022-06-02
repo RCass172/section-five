@@ -29,6 +29,8 @@ public class Main {
         }
         System.out.println(sum);
 
+        // Diagonal start challenge
+        DiagonalStar.printSquareStar(9);
     }
 
     public static void intSwitch(int switchValue) {
