@@ -13,6 +13,22 @@ public class Main {
         // Num of days in month challenge
         System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 2020)); // leap year
         System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 2018));
+
+        // For loop practice
+        int count = 0;
+        int sum = 0;
+        for (int x = 1; x <= 1000; x++) {
+            if (x % 3 == 0 && x % 5 == 0) {
+                count ++;
+                sum += x;
+                System.out.println(x);
+            }
+            if (count == 5) {
+                break;
+            }
+        }
+        System.out.println(sum);
+
     }
 
     public static void intSwitch(int switchValue) {
